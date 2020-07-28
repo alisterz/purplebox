@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>PurpleBox Studio Inc.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato:400,900i|Ubuntu');
+        * {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        body {
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+            background: #6441A5;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #6441A5, #2a0845);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #6441A5, #2a0845);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        h1 {
+            margin-top: 200px;
+            font-weight: bold;
+            font-size: 4em;
+        }
+
+        h2 {
+          font-weight: bold;
+          font-size: 2em;
+        }
+
+        h3 {
+            margin-top: 50px;
+            font-size: 1.5em;
+        }
+
+        .email {
+          margin-top: 20px;
+        }
+
+        .email h3 a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .service {
+          margin-top: 100px;
+        }
+
+       .serviceList {
+          margin-top:20px;
+          -webkit-column-count: 3; /* Chrome, Safari, Opera */
+          -moz-column-count: 3; /* Firefox */
+          column-count: 3;
+        }
+
+        .service h3 {
+          margin: 0;
+        }
+
+        .clients {
+          margin-top:100px;
+        }
+
+        .clientsList {
+            margin-top:20px;
+            -webkit-column-count: 3; /* Chrome, Safari, Opera */
+            -moz-column-count: 3; /* Firefox */
+            column-count: 3;
+        }
+
+        .client {
+          text-align: center;
+        }
+
+        .client img {
+          width: 250px;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body id="particles-js">
+    <div style="z-index:1; padding: 0 20px; margin-bottom: 50px;">
+        <h1>PurpleBox Studio Inc.</h1>
+        <div class="email">
+          <h3><a href="email:hi@purplebox.io">hi@purplebox.io</a></h3>
+        </div>
+        <div class="service">
+          <h2>Our Services</h2>
+          <div class="serviceList">
+            <div>
+              <h3>Web Development</h3>
+            </div>
+            <div>
+              <h3>Technical Support</h3>
+            </div>
+            <div>
+              <h3>System Administration</h3>
+            </div>
+          </div>
+        </div>
+        <div class="clients">
+          <h2>Our Clients</h2>
+          <div class="clientsList">
+            <div class="client">
+                <a href="http://www.loyaleaf.com/"><img src="./loyaleaf.png" /></a>
+            </div>
+            <div class="client">
+              <a href="https://www.guangson.com"><img src="./guangson.png" /></a>
+            </div>
+            <div class="client">
+              <a href="http://www.crystaltiles.com"><img src="./crystal.png" /></a>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+<html>
